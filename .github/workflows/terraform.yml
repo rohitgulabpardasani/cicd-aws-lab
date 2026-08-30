@@ -1,0 +1,10 @@
+- Runs on every push or pull request to the main branch
+- Checks out the repository code
+- Installs Terraform
+- Runs the following Terraform commands:
+    - terraform init
+    - terraform validate
+    - terraform plan
+    - terraform apply
+- Uses AWS credentials stored as GitHub Secrets
+- Save and commit this workflow file to your repository.
